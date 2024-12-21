@@ -1,0 +1,38 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Siyabonga Mbatha",
+        "email": "smbatha457@gmail.com",
+        "phone": "067 949 7009"
+      },
+      {
+        "id": 2,
+        "name": "Mbali Mbatha",
+        "email": "mbali457@gmail.com",
+        "phone": "065 678 3425"
+      }
+    ],
+    "bookings": [
+      {
+        "listingId": 1,
+        "startDate": "2022-02-20",
+        "endDate": "2022-02-21",
+        "userId": "1"
+      }
+    ],
+    "listings": {
+      "id": 1,
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 9650,
+      "address": "New Location",
+      "city": "Heilbron",
+      "street": "Kgware",
+      "price": 2000,
+      "sq_ft": 4.2,
+      "email": "test@test.com",
+      "userId": 2
+    }
+  }
+  

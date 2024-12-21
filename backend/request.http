@@ -1,0 +1,45 @@
+# GET ALL USERS
+GET https://localhost:5000/users/
+
+###
+
+# GET SINGLE USER
+GET https://localhost:5000/users/2
+
+###
+
+# REGISTER
+POST https://localhost:5000/register
+content-type: application/json
+
+{
+  "email": "siyam@gmail.com",
+  "password": "makhubela"
+}
+
+###
+
+
+# GET ALL BOOKINGS
+
+https://localhost:5000/bookings
+
+###
+
+# GET ALL BOOKINGS For A User
+
+https://localhost:5000/user/1/bookings
+
+###
+
+https://localhost:5000/listings
+
+###
+
+# POST https://localhost:5000/posts
+# content-type: application/json
+
+# {
+#     "title": "airbnb clone",
+#     "author": "siyabonga"
+#   }
